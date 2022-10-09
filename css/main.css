@@ -1312,7 +1312,7 @@ form button .uil {
     display: block;
   }
   .about .resumeDiv{
-  display: flex;
+  display: none;
 }
 
   .col .leftCol {
