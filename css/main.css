@@ -46,6 +46,9 @@ li {
   display:grid;
   gap: 1rem;
 }
+.about .resumeDiv{
+  display: none;
+}
 
 img {
   width: 100%;
@@ -202,6 +205,9 @@ video {
   .about .content .aboutImgDiv .aboutImg{
     display: none;
   }
+  .about .resumeDiv{
+  display: flex;
+}
 }
 
 .navList {
@@ -1175,6 +1181,9 @@ form button .uil {
   .about .content .aboutImgDiv .aboutImg{
     display: none;
   }
+  .about .resumeDiv{
+  display: flex;
+}
 }
 
 @media screen and (min-width: 645px) {
@@ -1189,6 +1198,9 @@ form button .uil {
   .about .content .aboutImgDiv .aboutImg{
     display: none;
   }
+  .about .resumeDiv{
+  display: flex;
+}
 
   .boxes {
     -ms-grid-columns: (1fr)[2];
@@ -1219,6 +1231,9 @@ form button .uil {
     display: none;
     cursor: pointer;
   }
+  .about .resumeDiv{
+  display: flex;
+}
 
   .header {
     padding: 3rem 4rem;
@@ -1296,6 +1311,9 @@ form button .uil {
     margin: 0 4rem;
     display: block;
   }
+  .about .resumeDiv{
+  display: flex;
+}
 
   .col .leftCol {
     left: 0;
